@@ -1,10 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>"Lithene.Github"</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="Media/favicon.ico" type="image/x-icon"/>
+    <title>(🩸 + 😓 + 😢) = 𝐗</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1 align="center">This page is a work in progress.</h1>
-    <h2 align="center">Please be patient.</h2>
+    <div class="content">
+        <!--
+        <script src="https://threejs.org/build/three.js"></script>
+        <script>
+            var scene = new THREE.Scene();
+            var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+            
+            var renderer = new THREE.WebGLRenderer({alpha: true});
+            renderer.setSize( window.innerWidth/3, window.innerHeight/3 );
+            document.body.appendChild( renderer.domElement );
+            
+            var geometry = new THREE.CubeGeometry(4,4,4);
+            var cubeMaterials = [ 
+                new THREE.MeshBasicMaterial({color:0x33AA55, transparent:true, opacity:0.8}),
+                new THREE.MeshBasicMaterial({color:0x55CC00, transparent:true, opacity:0.8}), 
+                new THREE.MeshBasicMaterial({color:0x000000, transparent:true, opacity:0.8}),
+                new THREE.MeshBasicMaterial({color:0x000000, transparent:true, opacity:0.8}), 
+                new THREE.MeshBasicMaterial({color:0x0000FF, transparent:true, opacity:0.8}), 
+                new THREE.MeshBasicMaterial({color:0x5555AA, transparent:true, opacity:0.8}), 
+            ]; 
+            var cubeMaterial = new THREE.MeshFaceMaterial(cubeMaterials); 
+            var cube = new THREE.Mesh( geometry, cubeMaterial );
+            
+            scene.add( cube );
+            camera.position.z = 5;
+
+            function animate() {
+                requestAnimationFrame( animate );
+                cube.rotation.x += 0.01;
+                cube.rotation.y += 0.01;
+                renderer.render( scene, camera );
+            }
+            animate();
+        </script>
+
+        <div class="sketchfab-embed-wrapper" align="center">
+            <iframe title="A 3D model" width="640" height="480" src="https://sketchfab.com/models/b2c20729dd4a4a89b3ee7cf90a795e46/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+
+        -->
+        <h1 align="center">『 collection 』</h1>
+        <div align="center"><img height="30px" src="https://img.shields.io/badge/made%20with-🍭🍰🍬%20·%20🌶🔥%20·%20🌈🦄✨%20·%20🧪𝐗-999999?style=flat"></div>
+        <h2 align="center"></h2>
+        <!--<div class="logo"><img width="150px" src="Media/lithene.png"></div>-->
+        <br>
+
+        <!-- COMING SOON BADGE: https://img.shields.io/badge/coming-soon-brightgreen-->
+        <table align="center" id="collection-list">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+        </table>
+
+        <div class="collection-list">
+            <h2 class="context-col"><a href="https://apps.ankiweb.net/" target="_blank">ANKI</a></h2>
+            <div class= "row">
+                <a href="https://github.com/Lithene/anki-minimal-theme" target="_blank"><img height="50px" id="title-col" src="https://media.giphy.com/media/IhmoyqoWMHrvHavz8P/giphy.gif"></a>
+                <div class="row-badges">
+                    <a href="https://github.com/Lithene/anki-minimal-theme" target="_blank"><img height="20px" src="https://img.shields.io/badge/GITHUB-CLICK?color=blue&style=flat&logo=github"></a>
+                    <img height="20px" src="https://img.shields.io/github/repo-size/lithene/anki-minimal-theme?color=48D1CC&style=flat">
+                    <img height="20px" src="https://img.shields.io/github/last-commit/lithene/anki-minimal-theme?style=flat">
+                </div>
+            </div>
+
+            <div class= "row">
+                <a href="https://github.com/Lithene/anki-minimal-theme" target="_blank"><img height="40px" id="title-col" src="https://media.giphy.com/media/YmWZGgQlGeuXUFdnND/giphy.gif"></a>
+                <div class="row-badges">
+                    <a href="https://github.com/Lithene/anki-minimal-theme" target="_blank"><img height="20px" src="https://img.shields.io/badge/GITHUB-CLICK?color=blue&style=flat&logo=github"></a>
+                    <img height="20px" src="https://img.shields.io/github/repo-size/lithene/anki-minimal-theme?color=48D1CC&style=flat">
+                    <img height="20px" src="https://img.shields.io/github/last-commit/lithene/anki-minimal-theme?style=flat">
+                </div>
+            </div>
+
+            <div class= "row">
+                <a href="code-template.html" target="_blank"><img height="40px" id= "title-col" src="">{Code} Template</a>
+                <div class="row-badges">
+
+                    <img height="20px" src="https://img.shields.io/badge/coming-soon-brightgreen">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <span id="copyright"></span>
+        <span id="legal"><b>lithene.github.io</b>&nbsp;All Rights Reserved</span>
+    </footer>
+    <script>document.getElementById("copyright").innerHTML = `${new Date().getFullYear()} ${'©'.bold()}`;</script>
 </body>
 </html>

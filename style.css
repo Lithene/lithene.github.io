@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+}
+
+body { 
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Avenir', sans-serif;
+    font-size: 25px;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+/* 3D object */
+canvas { 
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* The Header */
+ h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin: 0;
+}
+
+/* The table */
+.collection-list {
+    display: block;
+    margin: 0 15% 0 15%;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+
+.collection-list .context-col a {
+    display: inline;
+    text-decoration-line: none;
+    color: black;
+}
+
+.collection-list .row {
+    display: flex;
+    padding: 10px 0 5px 10px;
+    margin: 0;
+}
+
+.collection-list .row-badges {
+    display: flex;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.collection-list img {
+    margin: 5px 0  0 5px;
+}
+
+footer {
+    flex-shrink: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer #copyright {
+    display: flexbox;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+    height: 17px;
+    font-size: 13px;
+    background: red;
+    color: white;
+}
+
+footer #legal {
+    display: flexbox;
+    margin: 0 0 0 -7px;
+    padding: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 270px;
+    font-size: 13px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+}
+

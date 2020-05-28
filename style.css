@@ -16,7 +16,7 @@ a {
 }
 
 .collection-list h2 a:hover, a:hover {
-    color: red;
+    color: grey;
 }
 
 .content {

@@ -86,7 +86,7 @@
             </div>
 
             <div class= "row">
-                <a href="code-template.html" target="_blank"><img height="40px" id= "title-col" src="">{Code} Template</a>
+                <a href="code-template.html"><img height="40px" id= "title-col" src="">{Code} Template</a>
                 <div class="row-badges">
 
                     <img height="20px" src="https://img.shields.io/badge/coming-soon-brightgreen">
@@ -95,9 +95,11 @@
         </div>
     </div>
     <footer>
-        <span id="copyright"></span>
-        <span id="legal"><b>lithene.github.io</b>&nbsp;All Rights Reserved</span>
+        <a href="legal.html">
+            <span id="copyright"></span>
+            <span id="legal"><b>lithene.github.io</b>&nbsp;All Rights Reserved</span>
+        </a>
     </footer>
-    <script>document.getElementById("copyright").innerHTML = `${new Date().getFullYear()} ${'©'.bold()}`;</script>
+    <script>document.getElementById("copyright").innerHTML = `${'©'.bold()} ${new Date().getFullYear()}`;</script>
 </body>
 </html>
